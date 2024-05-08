@@ -1,0 +1,57 @@
+body{
+    background-image: url(images/css.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+img{
+    border-radius:50
+}
+nav{
+    display: flex;
+    padding: 28px 38px;
+    gap: 40px;
+    color: aquamarine;
+    padding-left: 620px;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
+  }
+  
+h3:hover{
+    background-color: slategray;
+    background-image: linear-gradient(red, rgb(0,140,255));
+    letter-spacing: 3px;
+    
+}
+
+#search{
+    color:darkgoldenrod;
+    padding-left: 550px;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+#book{
+    color:darkgoldenrod;
+    padding-left: 750px;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.games{
+	width: 70%;
+	display: flex;
+    justify-content: space-around;
+    padding-left: 300px;
+    color: azure;
+    text-align: center;
+}
+.games button:hover{
+    letter-spacing: 3px;
+}
+#book button:hover{
+    letter-spacing: 3px;
+}
